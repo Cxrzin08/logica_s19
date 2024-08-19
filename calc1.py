@@ -15,7 +15,7 @@ joao = {
     'gastos': [39.90, 23.50, 6.10, 19.50]
 }
 
-pessoas = [gabriel, carol, joao]
+pessoas = [gabriel, carol, joao] 
 
 for pessoas in range(1):
     print(gabriel['gastos'][0])
