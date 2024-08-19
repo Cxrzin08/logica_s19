@@ -17,6 +17,15 @@ joao = {
 
 pessoas = [gabriel, carol, joao]
 
+for pessoas in range(1):
+    print(gabriel['gastos'][0])
+    print(carol['gastos'])
+    print(joao['gastos'])
+    #print(gabriel['gastos'])
+    #print(carol['gastos'])
+    #print(joao['gastos'])
+    
+
 # Implemente um loop for 
 # para exibir por pessoa o:
 # total gasto
