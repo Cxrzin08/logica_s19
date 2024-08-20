@@ -12,12 +12,23 @@ while True:
 
 
 while True:
-    primo_input = int(input("Digite um número para verificar se é numero primo\nDigite sua opção:"))
-    if primo_input / primo_input == primo_input:
+    primo_input = int(input("Digite um número para verificar se é primo: "))
+
+    if primo_input <= 1:
         print("O número não é primo")
-        break
     else:
-        print("Seu número é primo")
+        divisor = 2
+        while divisor * divisor <= primo_input:
+            if primo_input % divisor == 0:
+                print("O número não é primo")
+                break
+            divisor += 1
+        else:
+            print("Seu número é primo")
+    
+    break
+
+
 
 # O loop while deve ter um else para 
 # executar quanto o loop while for finalizado 
